@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo en Chiapas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Turismo en Chiapas</h1>
+        <p>Explora los mejores lugares turísticos de Chiapas</p>
+    </div>
+
+    <div class="nav">
+        <a href="#palenque">Palenque</a>
+        <a href="#agua-azul">Cascadas de Agua Azul</a>
+        <a href="#sumidero">Cañón del Sumidero</a>
+        <a href="#montebello">Lagos de Montebello</a>
+        <a href="#san-cristobal">San Cristóbal de las Casas</a>
+        <a href="#misol-ha">Cascada de Misol-Ha</a>
+        <a href="#bonampak">Bonampak</a>
+        <a href="#yaxchilan">Yaxchilán</a>
+        <a href="#metzabok">Parque Nacional Lagunas de Metzabok</a>
+        <a href="#el-triunfo">Reserva de la Biosfera El Triunfo</a>
+        <a href="#comitan">Comitán de Domínguez</a>
+        <a href="#las-nubes">Las Nubes</a>
+    </div>
+
+    <div class="content">
+        <section id="palenque">
+            <h2>Palenque</h2>
+            <img src="imagenes2/palenque.jpg" alt="palenque" width="600" height="700">
+            <p>Palenque es una antigua ciudad maya, famosa por su arquitectura y arte escultórico. <br> Las ruinas están
+                ubicadas en medio de la selva, ofreciendo un paisaje impresionante y una experiencia única para los
+                visitantes.</p>
+            <button class="button" onclick="location.href='#'">Volver a la Página Principal</button>
+        </section>
+
+        <section id="agua-azul">
+            <h2>Cascadas de Agua Azul</h2>
+            <img src="imagenes2/cascadasAA.jpg" alt="Cascadas de Agua Azul" width="600" height="700">
+            <p>Las Cascadas de Agua Azul son un conjunto de impresionantes caídas de agua de color turquesa situadas en
+                la selva chiapaneca. <br> Es un lugar ideal para disfrutar de la naturaleza y refrescarse en sus aguas
+                cristalinas.</p>
+            <button class="button" onclick="location.href='#'">Volver a la Página Principal</button>
+        </section>
+
+        <section id="sumidero">
+            <h2>Cañón del Sumidero</h2>
+            <img src="imagenes2/cañosDSm.jpg" alt="Cañón del Sumidero" width="600" height="700">
+            <p>El Cañón del Sumidero es una maravilla natural con paredes que se elevan hasta 1,000 metros. <br> Puedes
+                realizar un recorrido en lancha por el río Grijalva y admirar la espectacular geología y biodiversidad
+                de la región.</p>
+            <button class="button" onclick="location.href='#'">Volver a la Página Principal</button>
+        </section>
+
+        <section id="montebello">
+            <h2>Lagos de Montebello</h2>
+            <img src="imagenes2/lagosDMon.jpg" alt="Lagos de Montebello" width="600" height="700">
+            <p>Los Lagos de Montebello son un conjunto de lagunas de diferentes colores, rodeadas de bosque de pino y
+                encino. <br> Es un lugar perfecto para actividades al aire libre como el senderismo, la natación y el
+                picnic.
+            </p>
+            <button class="button" onclick="location.href='#'">Volver a la Página Principal</button>
+        </section>
+
+        <section id="san-cristobal">
+            <h2>San Cristóbal de las Casas</h2>
+            <img src="imagenes2/sancrisDC.jpg" alt="San Cristóbal de las Casas" width="600" height="700">
+            <p>San Cristóbal de las Casas es una ciudad colonial famosa por su arquitectura, calles empedradas y
+                vibrante cultura indígena. <br> Es un lugar ideal para disfrutar de la historia, el arte y la
+                gastronomía.
+            </p>
+            <button class="button" onclick="location.href='#'">Volver a la Página Principal</button>
+        </section>
+
+        <section id="misol-ha">
+            <h2>Cascada de Misol-Ha</h2>
+            <img src="imagenes2/cascadasMH.jpg" alt="Cascada de Misol-Ha" width="600" height="700">
+            <p>La Cascada de Misol-Ha es una impresionante caída de agua de 35 metros de altura, ubicada cerca de
+                Palenque. <br> Se puede nadar en la piscina natural que se forma en su base y explorar una cueva detrás
+                de la
+                cascada.</p>
+            <button class="button" onclick="location.href='#'">Volver a la Página Principal</button>
+        </section>
+
+        <section id="bonampak">
+            <h2>Bonampak</h2>
+            <img src="imagenes2/bonapack.jpg" alt="Bonampak" width="600" height="700">
+            <p>Bonampak es un sitio arqueológico maya famoso por sus murales bien conservados que representan escenas
+                <br> de
+                la vida ceremonial y militar de los antiguos mayas.</p>
+            <button class="button" onclick="location.href='#'">Volver a la Página Principal</button>
+        </section>
+
+        <section id="yaxchilan">
+            <h2>Yaxchilán</h2>
+            <img src="imagenes2/Yaxchilán.jpg" alt="Yaxchilán" width="600" height="700">
+            <p>Yaxchilán es otro importante sitio arqueológico maya, conocido por sus estelas y edificios ornamentados.
+                <br>Está ubicado a orillas del río Usumacinta y se puede acceder en lancha.
+            </p>
+            <button class="button" onclick="location.href='#'">Volver a la Página Principal</button>
+        </section>
+
+        <section id="metzabok">
+            <h2>Parque Nacional Lagunas de Metzabok</h2>
+            <img src="imagenes2/parNL.jpg" alt="Parque Nacional Lagunas de Metzabok" width="600" height="700">
+            <p>El Parque Nacional Lagunas de Metzabok es un área protegida con varias lagunas, bosques y una rica
+                biodiversidad. <br> Es un excelente lugar para el ecoturismo y la observación de aves.</p>
+            <button class="button" onclick="location.href='#'">Volver a la Página Principal</button>
+        </section>
+
+        <section id="el-triunfo">
+            <h2>Reserva de la Biosfera El Triunfo</h2>
+            <img src="imagenes2/reservaBdT.jpg" alt="Reserva de la Biosfera El Triunfo" width="600" height="700">
+            <p>La Reserva de la Biosfera El Triunfo es una de las áreas protegidas más importantes de México, conocida
+                por su biodiversidad y ecosistemas únicos. <br> Es hogar de especies en peligro de extinción como el quetzal
+                y el pavón.</p>
+            <button class="button" onclick="location.href='#'">Volver a la Página Principal</button>
+        </section>
+
+        <section id="comitan">
+            <h2>Comitán de Domínguez</h2>
+            <img src="imagenes2/comitan.jpg" alt="Comitán de Domínguez">
+            <p>Comitán de Domínguez es una encantadora ciudad colonial cerca de los Lagos de <br>Montebello, conocida por su
+                arquitectura, historia y cercanía a sitios naturales.</p>
+                <button class="button" onclick="location.href='#'">Volver a la Página Principal</button>
+        </section>
+
+        <section id="las-nubes">
+            <h2>Las Nubes</h2>
+            <img src="imagenes2/lasNubes.jpg" alt="Las Nubes">
+            <p>Las Nubes es un conjunto de cascadas y rápidos en el río Santo Domingo, rodeado de exuberante vegetación.
+              <br>  Es ideal para actividades de ecoturismo como caminatas y rafting.</p>
+              <button class="button" onclick="location.href='#'">Volver a la Página Principal</button>
+        </section>
+    </div>
+<br>
+    <div class="footer">
+        <p>&copy; 2024 Turismo en Chiapas</p>
+    </div>
+</body>
+
+</html>
