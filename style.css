@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #8c24f4;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+}
+
+.nav a {
+    padding: 11px 10px;
+    display: block;
+    color: rgb(234, 41, 248);
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content section {
+    margin: 20px 0;
+    background-color: rgb(238, 171, 248);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;  
+}
+
+.content img {
+    width: 950px;
+    height: 550px;
+    display: block;
+    margin: 0 auto 10px;  
+    border-radius: 30px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.button {
+    background-color: #ea32f4; /* Color de fondo */
+    border: none;
+    color: rgb(0, 7, 8);
+    padding: 10px 20px; /* Espaciado interno */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px; /* Borde redondeado */
+    cursor: pointer;
+    transition: background-color 0.2s; /* Transición suave */
+}
+
+/* Cambio de color al pasar el cursor */
+.button:hover {
+    background-color: #9c3bec; /* Color de fondo más oscuro */
+}
